@@ -3,67 +3,62 @@ package br.com.dio.model;
 import java.util.Objects;
 
 public class Gato {
-	
-	private String nome;
-	private String cor;
-	private Integer idade;
-	
-	public Gato(String nome, String cor, Integer idade){
-		this.nome = nome;
-		this.cor = cor;
-		this.idade = idade;
-		
-	}
+    private String nome;
+    private String cor;
+    private Integer idade;
 
-	public Gato() {
-		// TODO Auto-generated constructor stub
-	}
+    public Gato() {
+    }
 
-	public String getNome() {
-		return nome;
-	}
+    public Gato(String nome, String cor, Integer idade) {
+        this.nome = nome;
+        this.cor = cor;
+        this.idade = idade;
+    }
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public String getNome() {
+        return nome;
+    }
 
-	public String getCor() {
-		return cor;
-	}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-	public void setCor(String cor) {
-		this.cor = cor;
-	}
+    public String getCor() {
+        return cor;
+    }
 
-	public Integer getIdade() {
-		return idade;
-	}
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
 
-	public void setIdade(Integer idade) {
-		this.idade = idade;
-	}
+    public Integer getIdade() {
+        return idade;
+    }
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(cor, idade, nome);
-	}
+    public void setIdade(Integer idade) {
+        this.idade = idade;
+    }
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Gato other = (Gato) obj;
-		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
-	}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Gato gato = (Gato) o;
+        return Objects.equals(nome, gato.nome) && Objects.equals(cor, gato.cor) && Objects.equals(idade, gato.idade);
+    }
 
-	@Override
-	public String toString() {
-		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
-	}
-	
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, cor, idade);
+    }
 
+    @Override
+    public String toString() {
+        return "Gato{" +
+                "nome='" + nome + '\'' +
+                ", cor='" + cor + '\'' +
+                ", idade=" + idade +
+                '}';
+    }
 }
