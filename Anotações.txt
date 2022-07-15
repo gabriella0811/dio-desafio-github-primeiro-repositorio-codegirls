@@ -1,52 +1,13 @@
--- Intalação Java (Windows)--
+-- Anotações -- 
 
-Site - https://www.azul.com/downloads/?package=jdk
+Em Java as variáveis não podem começar com números.
 
+* Boas práticas *
 
-- CMD - verificar se já possui instalado o programa
-
-Digitar o seguinte:
-
-java --version
-
-
-
-
-----------------------------------------------------------------------------------------
-
--- Instalação e Configuração Git Bash/Github (Windows)-- 
-
-Site - https://git-scm.com/downloads
-
-
-- Git Bash - Configuração -
-
-
-Nome
-git config --global user.name "Seu nome"
-
-
-Email
-git config --global user.email seuemail@email.br
-
-
-Verificar a lista de configurações
-git config --list
+Começar com letra minuscula, nomes expressivos.
 
 ------------------------------------------------------------------------------------------
--- Instalação Eclipse (Windows) --
 
-
-Site - https://www.eclipse.org/downloads/
-
-
-------------------------------------------------------------------------------------------
--- Instalação IntelliJ (Windows) --
-
-Site - https://www.jetbrains.com/idea/download/#section=windows
-
-
-
-
-
+- Tipos de dados - são os valores e opreções que as variáveis podem assumir e sofre,
+respectivamente.
 
