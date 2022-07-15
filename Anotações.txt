@@ -1,0 +1,52 @@
+-- Intalação Java (Windows)--
+
+Site - https://www.azul.com/downloads/?package=jdk
+
+
+- CMD - verificar se já possui instalado o programa
+
+Digitar o seguinte:
+
+java --version
+
+
+
+
+----------------------------------------------------------------------------------------
+
+-- Instalação e Configuração Git Bash/Github (Windows)-- 
+
+Site - https://git-scm.com/downloads
+
+
+- Git Bash - Configuração -
+
+
+Nome
+git config --global user.name "Seu nome"
+
+
+Email
+git config --global user.email seuemail@email.br
+
+
+Verificar a lista de configurações
+git config --list
+
+------------------------------------------------------------------------------------------
+-- Instalação Eclipse (Windows) --
+
+
+Site - https://www.eclipse.org/downloads/
+
+
+------------------------------------------------------------------------------------------
+-- Instalação IntelliJ (Windows) --
+
+Site - https://www.jetbrains.com/idea/download/#section=windows
+
+
+
+
+
+
