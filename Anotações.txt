@@ -1,86 +1,122 @@
--- Operadores Relacionais --
+-- Collections Framework --
 
-Simbolos especiais que são caoazes de realizar comparações entre 
-determinados operandos e se tornar um resultado. 
+Objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de 
+uma única unidade.
 
-" São utilizados na comparação do valor de uma variável com o valor constante
-ou com o valor de outra variável, o resultado da comparação pode ser V ou F." 
-- Livro "Programação orientada a objetos com Java 8 - William Pereira Alves"
+Serve para armazenar e processar conjuntos de dados de forma eficiente.
 
+Interfaces: É um contrato que quando assumido por uma classe deve ser implementado.
 
-- Similaridade 
-Igualdade - determina se um operando é igual ao outro
+Implementações ou Classes: são as materializações, a codificação das interfaces.
 
-(==)
-
-Diferença - determina se um operando não é igual ao outro
-
-(!=)
-
---------------------------------------------------------------------------
-
--- Operadores Lógicos --
-
-Simbolos especiais que são capazes de realizar comparações lógicas entre
-operandos lógicos ou expressões e em seguida retornar um resultado.
-
-Tipos - conjunção, disjunção, disjunção exclusiva, negação.
-
-Conjunção - operação lógica que só é verdadeira quando ambos os operandos
-ou expressões envolvidas são verdade.
-
-Disjunção - só é falsa quando ambos os operandos ou expressões envolvidas
-são falsos
-
-Disjunção exclusiva - só é verdade quando ambos os operandos ou expressões
-são opostos
-
-Negação - inverte o valor lógico de um operando ou expressão
-
-" Usados em operações lógicas que envolvam a avaliação dos resultados de duas
-ou mais expressões relacionais " - Livro "Programação orientada a objetos
-com Java 8 - William Pereira Alves"
-
-Operadores
- 
-&& - AND (e)
-|| - OR (ou)
-! - NOT (inversão)
-^ - XOR
+Algoritmos: É uma sequência lógica, finita e definida de instruções que devem ser seguidas 
+para resolver um problema.
 
 
---------------------------------------------------------------------------
+"Uma coleção é uma estrutura de dados organizada, que também permite armazenar dinamicamente 
+uma grande quantidade de elementos." - "Livro - Programação Orientada a Objetos com Java 8 -
+William Pereira Alves"
 
--- Controle de Fluxo --
 
-Estruturas que tem a capacidade de direcionaar o fluxo de execução do código.
+-------------------------------------------------------------------------------------------
 
-Tipos 
-Decisão - if, if-else, if-else-if, switch e operador ternário
-Repetição - for, while, do while
-Interrupção - break, continue e return
+-- Lists --
 
-Decisão- avalia uma condição booleana ou variável para direcionar o fluxo de execução
+java.util.List - elementos duplicados e garante ordem de inserção
+
+ArrayList - deve ser utilizado onde mais operações de pesquisa são necessárias.
+LinkedList - dever ser utilizado onde mais operações de inseção e exclusão são necessárias
 
 
 
-"Essas estruturas são, em grande parte, responsáveis pela sofisticação e 
-pelo poder de processamento dos programas. Elas podem ser agrupadas em dois
-tipos: 
-Estruturas condicionais (ou de decisões) e Estruturas de repetição." 
-- Livro "Programação orientada a objetos
-com Java 8 - William Pereira Alves"
+-------------------------------------------------------------------------------------------
 
---------------------------------------------------------------------------
+-- Set --
 
--- Blocos --
+java.util.set - Não permite elementos duplicados e não possui índice
 
-Grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação
+"A Set é uma interface e não uma classe. Sendo assim, é necessário referenciar as classes
+HashSet ou TreeSet. 
 
-Tipos 
-Locais - dentro de métodos
-Estáticos - dentro de classes
-Instância - dentro de classes
+A HashSet implementa um conjunto como uma hash table.
+
+A TreeSet utiliza a implementação de árvore binária." - "Livro - Programação Orientada a 
+Objetos com Java 8 - William Pereira Alves"
+
+
+
+-------------------------------------------------------------------------------------------
+
+-- Map --
+
+java.util.Map - Elementos únicos (key) para cada valor (value)
+
+" A principal característica que o diferencia dos demais é que ele armazena, além do valor
+referente ao elemento de dado, uma chave á qual é associado o elemento correspondente" 
+- "Livro - Programação Orientada a Objetos com Java 8 - William Pereira Alves"
+
+-------------------------------------------------------------------------------------------
+
+-- Stream -- 
+
+Classe Anônima - é uma classe não recebeu um nome e é tanto declarado e instanciado em uma 
+única instrução. Você deve considerar o uso de uma classe anônima sempre que você precisa
+para criar uma classe que será instanciado apenas uma vez.
+
+
+Functional Interface - Qualquer interface com um SAM (Single Abstract Method) é uma
+interface funcional e sua implementação pode ser tratada como expressões lambda.
+
+* Comparator
+* Consumer
+* Function
+* Predicate
+
+
+Lambda - é uma função sem declaração, isto é, não é necessário colocar um nome, um tipo de 
+retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar
+em que será usado. As funções lambda em Java tem a sintaxe definida como (argumento) -> 
+(corpo).
+
+
+Reference Method
+
+Method Reference - novo recurso do Java 8 que permite fazer referência a um método ou construtor de uma classe 
+(de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais 
+simples e legível . Para utilizá-lo, basta informar uma classe ou referência seguida do símbolo “::” e o nome do 
+método sem os parênteses no final.
+
+
+Streams API - traz uma nova opção para a manipulação de coleções em Java seguindo os princípios da programação
+funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de lidar com conjuntos de 
+elementos,oferecendo ao desenvolvedor uma maneira simples e concisa de escrever código que resulta em facilidade 
+de manutenção e paralelização sem efeitos indesejados em tempo de execução.
+
+Source -> Pipeline -> Terminal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
