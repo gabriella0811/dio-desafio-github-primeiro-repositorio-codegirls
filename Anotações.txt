@@ -1,13 +1,21 @@
--- Anotações -- 
+- Métodos
+Porção de código que é disponibilizada por uma classe, todo método deve ser criado dentro
+de uma classe.
 
-Em Java as variáveis não podem começar com números.
+Pode ser contrato ou abstrato.
 
-* Boas práticas *
+- Assinatura  
+É a forma de identifica unicamente o método 
 
-Começar com letra minuscula, nomes expressivos.
++parametros
+------------------------------------------------------------------------------------------
+- Sobrecarga 
+Tem a capacidade de definir métodos para diferentes contextos, mas preservando seu nome
 
 ------------------------------------------------------------------------------------------
 
-- Tipos de dados - são os valores e opreções que as variáveis podem assumir e sofre,
-respectivamente.
+- Retornos
+
+Return - instrução de interrupção, é atrelado a um método, completa instruções internas, 
+declaração explicita de retorno, lança exceção.
 

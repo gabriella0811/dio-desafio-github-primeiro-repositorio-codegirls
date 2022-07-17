@@ -1,45 +1,32 @@
-package br.com.dio.calculadora;
-
-import java.util.Scanner;
+package one.digitalinnovation.basecamp.codegirls;
 
 public class Calculadora {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
 
-        int a , b;
+    public static void soma(double numero1, double numero2) {
 
-        System.out.println("Digite o primeiro valor: ");
-        a = scan.nextInt();
-        System.out.println("Digite o segundo valor: ");
-        b = scan.nextInt();
+        double resultado = numero1 + numero2;
 
-        int somar = somar(a, b);
-        int subtrair = subtrair(a, b);
-        int multiplicar = multiplicar(a, b);
-        int dividir = dividir(a, b);
-
-        System.out.println("somar: " + somar);
-        System.out.println("subt: " + subtrair);
-        System.out.println("mult: " + multiplicar);
-        System.out.println("div: " + dividir);
-
-    }
-
-    public static int somar(int a, int b){
-        return a + b;
-    }
-
-    public static int subtrair(int a, int b){
-        return a - b;
-    }
-
-    public static int multiplicar(int a, int b){
-        return a * b;
-    }
-
-    public static int dividir(int a, int b){
-        return a / b;
+        System.out.println("A soma de " + numero1 + " mais " + numero2 + " é " + resultado);
     }
 
 
+    public static void multiplicacao(double numero1, double numero2) {
+
+        double resultado = numero1 * numero2;
+
+        System.out.println("A multiplicação de " + numero1 + " vezes " + numero2 + " é " + resultado);
+    }
+
+    public static void subtracao(double numero1, double numero2) {
+        double resultado = numero1 - numero2;
+
+        System.out.println("A subtracao de " + numero1 + " menos " + numero2 + " é " + resultado);
+    }
+
+    public static void  divisao(double numero1, double numero2) {
+
+        double resultado = numero1 / numero2;
+
+        System.out.println("A divisão de " + numero1 + " por " + numero2 + " é " + resultado);
+    }
 }

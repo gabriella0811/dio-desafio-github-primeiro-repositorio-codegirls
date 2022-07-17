@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85d24a2b-8abd-48af-883b-7e72a9e84885" name="Changes" comment="Exercicio 1" />
+    <list default="true" id="bc4325e4-0dfc-43b8-9e44-f8973f4c5f68" name="Changes" comment="Entendendo métodos Java">
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/1e/50ef2e59dc03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/23/3034c232dc03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/23/c0200f39da03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/28/207de62dd903001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/30/4053ca29db03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/30/903c1ccadc03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/3c/80c31816e103001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/40/00cb88a9e203001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/60/f08c74a1d903001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/62/c0e630a5db03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/6a/b0c86cb4dc03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/77/d0d4b6f4da03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/80/6076723ce203001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/8f/60de31f0d903001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/93/f08b90f6dc03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/9b/b0773030da03001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/aa/10c6644fe203001d1dacd1a6c268fee2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.projects/primeiro programa java/.markers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.debug.core/.launches/PrimeiroPrograma.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/2707940638.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/3194711644.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.3.20211002-1029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/PrimeiroPrograma.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/PrimeiroPrograma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/primeiro programa java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/primeiro-projeto-intellij" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Anotações.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metodos Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula2/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula2/codegirls/Quadrilatero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula3/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula3/codegirls/Quadrilatero2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lógica Condicional e Controle de Fluxos em Java/Anotações.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Variáveis, Tipos de Dados e Operadores Matemáticos em Java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,19 +94,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2BxthqJYEo9W21UDmDAjUkTzUhx" />
+  <component name="ProjectId" id="2C0m4GkxvTFDCYkid7dX0cZ4A41" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,48 +108,38 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriella/Documents/DIO - Digital Innovation One/Santander - Code Girls/Módulo - II/Variáveis, Tipos de Dados e Operadores Matemáticos em Java&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aula3.codegirls.Main" />
+      <module name="Metodos Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Aula3.codegirls.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85d24a2b-8abd-48af-883b-7e72a9e84885" name="Changes" comment="" />
-      <created>1657859692686</created>
+      <changelist id="bc4325e4-0dfc-43b8-9e44-f8973f4c5f68" name="Changes" comment="" />
+      <created>1657947706909</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657859692686</updated>
+      <updated>1657947706909</updated>
     </task>
-    <task id="LOCAL-00001" summary="Exercicio 1">
-      <created>1657859967100</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657859967100</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Exercicio 1">
-      <created>1657860116894</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657860116894</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Exercicio 1">
-      <created>1657906556828</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1657906556828</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Exercicio 1">
-      <created>1657906685626</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1657906685626</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,9 +152,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercicio 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicio 1" />
   </component>
 </project>
