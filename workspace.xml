@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc4325e4-0dfc-43b8-9e44-f8973f4c5f68" name="Changes" comment="Entendendo métodos Java">
+    <list default="true" id="065493bd-b596-453e-9649-971a63b3dd6a" name="Changes" comment="Exercicios">
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Boas-vindas ao Santander Code Girls.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Conheça as Oportunidades da DIO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Criando seu Primeiro Repositório no GitHub para compartilhar seu progresso.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Dominando IDEs Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Entendendo Métodos Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Introdução à Programação e Pensamento Computacional.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Lógica Condicional e Controle de Fluxos em Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Santander Code Girls - Aula Inaugural.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Seja Protagonista Neste Bootcamp.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Certificados - Code Girls/Variáveis, Tipos de Dados e Operadores matemáticos em Java.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Módulo - I/Desafio - Git/Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Módulo - I/Introdução à Programação e Pensamento Computacional/Primeiros passo atualizado.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Módulo - I/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.history/1e/50ef2e59dc03001d1dacd1a6c268fee2" afterDir="false" />
@@ -26,6 +39,7 @@
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
@@ -48,36 +62,77 @@
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.debug.core/.launches/Calculadora.launch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.debug.core/.launches/PrimeiroPrograma.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.egit.ui/dialog_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/2707940638.index" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/3194711644.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.16.3.20211002-1029.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/Anotações.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/PrimeiroPrograma.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/PrimeiroPrograma.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/primeiro programa java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Dominando IDEs Java/primeiro-projeto-intellij" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Anotações.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/Metodos Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/out/production/Metodos Java/Aula2/codegirls/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/out/production/Metodos Java/Aula2/codegirls/Quadrilatero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/out/production/Metodos Java/Aula3/codegirls/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/out/production/Metodos Java/Aula3/codegirls/Quadrilatero2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/out/production/Metodos Java/one/digitalinnovation/basecamp/codegirls/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/Aula2/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/Aula2/codegirls/Quadrilatero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/Aula3/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/Aula3/codegirls/Quadrilatero2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/one/digitalinnovation/basecamp/codegirls/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/one/digitalinnovation/basecamp/codegirls/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/one/digitalinnovation/basecamp/codegirls/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Entendendo Métodos Java/Metodos Java/src/one/digitalinnovation/basecamp/codegirls/Mensagem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Anotações.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Metodos Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula2/codegirls/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula2/codegirls/Quadrilatero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3/codegirls/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula3/codegirls/Quadrilatero2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Emprestimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalinnovation/basecamp/codegirls/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repeticao e Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/exercicios/codegirls/Arrays/Arrays" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/exercicios/codegirls/package-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Lógica Condicional e Controle de Fluxos em Java/Anotações.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Variáveis, Tipos de Dados e Operadores Matemáticos em Java" afterDir="false" />
     </list>
@@ -89,6 +144,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -99,25 +155,136 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2C0m4GkxvTFDCYkid7dX0cZ4A41" />
+  <component name="ProjectId" id="2C2RiiDkNDev4rYyuqyfoEigUMn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula3.codegirls.Main" />
-      <module name="Metodos Java" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriella\Documents\DIO - Digital Innovation One\Santander - Code Girls\dio-desafio-github-primeiro-repositorio-codegirls\Módulo - II\Estruturas de Repetição e Arrays em Java\Repeticao e Arrays\src\Arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ex4_ArrayMultidimensional">
+    <configuration name="Ex1_NomeEIdade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex1_NomeEIdade" />
+      <module name="Repeticao e Arrays" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aula3.codegirls.*" />
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1_OrdemInversa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Ex1_OrdemInversa" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2_Nota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex2_Nota" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex3_MaiorEMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex3_MaiorEMedia" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex3_NumerosAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Ex3_NumerosAleatorios" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex4_ArrayMultidimensional" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Ex4_ArrayMultidimensional" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex4_ParEImpar" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex4_ParEImpar" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex5_Tabuada" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex5_Tabuada" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex6_Fatorial" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.Ex6_Fatorial" />
+      <module name="Repeticao e Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,18 +294,22 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex3_NumerosAleatorios" />
+        <item itemvalue="Application.Ex1_OrdemInversa" />
+        <item itemvalue="Application.Ex3_MaiorEMedia" />
+        <item itemvalue="Application.Ex2_Nota" />
+        <item itemvalue="Application.Ex1_NomeEIdade" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bc4325e4-0dfc-43b8-9e44-f8973f4c5f68" name="Changes" comment="" />
-      <created>1657947706909</created>
+      <changelist id="065493bd-b596-453e-9649-971a63b3dd6a" name="Changes" comment="" />
+      <created>1657998827116</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657947706909</updated>
+      <updated>1657998827116</updated>
     </task>
     <servers />
   </component>
@@ -152,5 +323,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Repeticao_e_Arrays$Ex3_MaiorEMedia.ic" NAME="Ex3_MaiorEMedia Coverage Results" MODIFIED="1657999901087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.dio.exercicios.codegirls.Arrays.Loops.Comentado.*</FILTER>
+    </SUITE>
   </component>
 </project>

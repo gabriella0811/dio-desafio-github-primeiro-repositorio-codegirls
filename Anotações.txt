@@ -1,21 +1,15 @@
-- Métodos
-Porção de código que é disponibilizada por uma classe, todo método deve ser criado dentro
-de uma classe.
+-- Estrutuas de repetição --
 
-Pode ser contrato ou abstrato.
+São as estruturas mais utilizadas em programação. Sem elas, não seria possível executar um gripo de instruções
+mais de uma vez, sem que fosse necessário repetir as linhas dentro do código. São conhecidas como laços de repetição 
+ou em Loop.
 
-- Assinatura  
-É a forma de identifica unicamente o método 
+Tipos de estruturas de repetições
+For 
+While
+Do/While
 
-+parametros
-------------------------------------------------------------------------------------------
-- Sobrecarga 
-Tem a capacidade de definir métodos para diferentes contextos, mas preservando seu nome
+Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas
+condições sejam satisfeitas.
 
-------------------------------------------------------------------------------------------
-
-- Retornos
-
-Return - instrução de interrupção, é atrelado a um método, completa instruções internas, 
-declaração explicita de retorno, lança exceção.
 
