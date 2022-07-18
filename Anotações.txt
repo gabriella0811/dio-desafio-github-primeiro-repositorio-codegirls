@@ -1,119 +1,47 @@
--- Collections Framework --
+-- Debugging --
 
-Objeto que agrupa múltiplos elementos (variáveis primitivas ou objetos) dentro de 
-uma única unidade.
+Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.
+De forma geral, a depuração é uma tarefa difícil e trabalhosa, e a dificuldade varia de acordo com o ambiente de 
+desenvolvimento, o que inclui a linguagem de programação e as ferramentas disponíveis, como depuradores.
 
-Serve para armazenar e processar conjuntos de dados de forma eficiente.
+---------------------------------------------------------------------------------------------------------------------------------
+Existem duas grandes categorias que englobam a natureza do erro:
 
-Interfaces: É um contrato que quando assumido por uma classe deve ser implementado.
+Erros de Sintaxe:
+ 
+É um erro nas regras estabelecidas da linguagem;
 
-Implementações ou Classes: são as materializações, a codificação das interfaces.
+* Parênteses, chaves, colchetes que abrem mas não fecham.
+* Duas instruções sem um ponto-e-vírgula entre elas;
+* Uma palavra-chave sendo usada numa posição inesperada.
+---------------------------------------------------------------------------------------------------------------------------------
+Erros de Semântica:
 
-Algoritmos: É uma sequência lógica, finita e definida de instruções que devem ser seguidas 
-para resolver um problema.
+É um erro na "lógica do código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava
+dele.
 
+* Tentar dividir um número por uma String ou por zero.
+* Atribuir um valor incoerente a um tipo de dado.
+* Tentar fechar um arquivo que não foi aberto.
+---------------------------------------------------------------------------------------------------------------------------------
 
-"Uma coleção é uma estrutura de dados organizada, que também permite armazenar dinamicamente 
-uma grande quantidade de elementos." - "Livro - Programação Orientada a Objetos com Java 8 -
-William Pereira Alves"
+Depuração/Debugging
 
+Linguagens de alto nível tornam a depuração mais fácil, pois fornecem mais ferramentas para identificar erros, como 
+o tratamento de exceções.
+Os depuradores funcionam assumindo o controle do tempo de execução de um programa e permitindo que você o observe e 
+controle. Para fazer isso, ele mostra a pilha do programa e permite que você a atravesse em qualquer direção. 
+Quando você está em um depurador, obtém uma imagem mais completa de um quadro de pilha do que quando olha os 
+rastreamentos de pilha em uma mensagem de log.
 
--------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
 
--- Lists --
-
-java.util.List - elementos duplicados e garante ordem de inserção
-
-ArrayList - deve ser utilizado onde mais operações de pesquisa são necessárias.
-LinkedList - dever ser utilizado onde mais operações de inseção e exclusão são necessárias
-
-
-
--------------------------------------------------------------------------------------------
-
--- Set --
-
-java.util.set - Não permite elementos duplicados e não possui índice
-
-"A Set é uma interface e não uma classe. Sendo assim, é necessário referenciar as classes
-HashSet ou TreeSet. 
-
-A HashSet implementa um conjunto como uma hash table.
-
-A TreeSet utiliza a implementação de árvore binária." - "Livro - Programação Orientada a 
-Objetos com Java 8 - William Pereira Alves"
+Pilha de Execução - Toda invocação de método é empilhada em uma estrutura de dados que isola a área de memória de cada 
+um. Quando um método termina (retorna), ele volta para o método que o invocou.
 
 
-
--------------------------------------------------------------------------------------------
-
--- Map --
-
-java.util.Map - Elementos únicos (key) para cada valor (value)
-
-" A principal característica que o diferencia dos demais é que ele armazena, além do valor
-referente ao elemento de dado, uma chave á qual é associado o elemento correspondente" 
-- "Livro - Programação Orientada a Objetos com Java 8 - William Pereira Alves"
-
--------------------------------------------------------------------------------------------
-
--- Stream -- 
-
-Classe Anônima - é uma classe não recebeu um nome e é tanto declarado e instanciado em uma 
-única instrução. Você deve considerar o uso de uma classe anônima sempre que você precisa
-para criar uma classe que será instanciado apenas uma vez.
-
-
-Functional Interface - Qualquer interface com um SAM (Single Abstract Method) é uma
-interface funcional e sua implementação pode ser tratada como expressões lambda.
-
-* Comparator
-* Consumer
-* Function
-* Predicate
-
-
-Lambda - é uma função sem declaração, isto é, não é necessário colocar um nome, um tipo de 
-retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar
-em que será usado. As funções lambda em Java tem a sintaxe definida como (argumento) -> 
-(corpo).
-
-
-Reference Method
-
-Method Reference - novo recurso do Java 8 que permite fazer referência a um método ou construtor de uma classe 
-(de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais 
-simples e legível . Para utilizá-lo, basta informar uma classe ou referência seguida do símbolo “::” e o nome do 
-método sem os parênteses no final.
-
-
-Streams API - traz uma nova opção para a manipulação de coleções em Java seguindo os princípios da programação
-funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de lidar com conjuntos de 
-elementos,oferecendo ao desenvolvedor uma maneira simples e concisa de escrever código que resulta em facilidade 
-de manutenção e paralelização sem efeitos indesejados em tempo de execução.
-
-Source -> Pipeline -> Terminal
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Stack Trace - É a matriz onde encontramos a pilha de excecução da exceção. Em outras palavras, podemos dizer que o 
+rastreamento da pilha busca (rastreio) para a próxima linha onde a exceção pode surgir.
 
 
 

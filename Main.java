@@ -1,27 +1,30 @@
-package one.digitalinnovation.basecamp.codegirls;
+package br.com.dio.debugging.codegirls;
 
 public class Main {
 
     public static void main(String[] args) {
-
-        // Calculadora
-        System.out.println("Exercício calculadora");
-        Calculadora.soma(3, 6);
-        Calculadora.subtracao(9, 1.8);
-        Calculadora.multiplicacao(7, 8);
-        Calculadora.divisao(5, 2.5);
-
-        // Mensagem
-        System.out.println("Exercício mensagem");
-        Mensagem.obterMensagem(9);
-        Mensagem.obterMensagem(14);
-        Mensagem.obterMensagem(1);
-
-        // Empréstimo
-        System.out.println("Exercício empréstimo");
-        Emprestimo.calcular(1000, Emprestimo.getDuasParcelas());
-        Emprestimo.calcular(1000, Emprestimo.getTresParcelas());
-        Emprestimo.calcular(1000, 5);
-
+        System.out.println("Iniciou do programa no método main.");
+        a();
+        System.out.println("Finalizou do programa no método main.");
     }
+
+    static void a() {
+        System.out.println("Entrou no método a.");
+        b();
+        System.out.println("Finalizou o método a.");
+    }
+
+    static void b() {
+        System.out.println("Entrou no método b.");
+        for(int i = 0; i <= 4; i++) System.out.println(i);
+        c();
+        System.out.println("Finalizou o método b.");
+    }
+
+    static void c(){
+        System.out.println("Entrou no método c.");
+        //Thread.dumpStack();
+        System.out.println("Finalizou o método c.");
+    }
+
 }
