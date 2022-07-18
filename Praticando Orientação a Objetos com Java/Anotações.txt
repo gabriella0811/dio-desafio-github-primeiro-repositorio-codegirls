@@ -1,0 +1,60 @@
+Programação estruturada - é linear e estruturada como o próprio nome diz, ou seja, as tomadas de decisões são feitas
+de forma ordenada, por meio de verificações condicionais e interações, utilizando como recursos variáveis e rotinas
+para o desenvolvimento dos programas.
+
+Programação orientada a objetos - foi desenvolvida nos anos 60
+
+Classes e objetos
+Subclasses
+Métodos virtuais
+Frameworks
+Concorrência
+Gerenciamento de memória 
+
+
+Classes utilitárias - não são classes orientadas a objetos, agrupadas por temas, de forma que você possa compartilhar
+afim de evitar duplicidade de código.
+
+Classe e objeto - representação de dados em objetos ou entidades em objetos ou entidades para o processamento de outros
+objetos.
+
+Associação de classes - quando utilizamos uma classe dentro de outra classe
+
+Herança - utilização de uma classe base, fazendo com que uma nova classe tenha todos os atributos e funções da classe pai,
+mais as suas próprias.
+
+Encapsulamento - proteção de alguns dados ou funcionalidade da classe, não permitindo que seus consumidores possam acessa-la.
+
+Polimorfismo - podem criar funções que terão o mesmo nome, mas que podem ter diferentes processamentos, implementações, ou
+na mesma classe o mesmo nome e diferentes entradas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
