@@ -1,0 +1,92 @@
+- POO -
+
+PE - Representação mais simples
+POO - Representação realista
+
+OO (Orientação a Objetos) - paradigma de análise, projeto e programação de sistemas de 
+software baseado na composição e interação entre diversas unidades de software chamadas
+de objetos.
+
+Fundamentos 
+Abstração - isolam características de um objeto, considerando os que tenham em comum certos 
+grupos de objetos
+
+Reuso - capacidade de crias novas unidades de código a partir de outras já existentes
+
+Encapsulamento - esconde complexidades e protege os dados
+
+---------------------------------------------------------------------------------------------
+- Estruturas básicas
+
+Classe - estrutura que abstrai um conjunto de objetos com caracteristicas similares
+
+Atributo - elemento de uma classe responsável por definir sua estrutura de dados, será 
+responsável por representar suas caracterísitcas e fará parte dos objetos criados a partir
+da classe.
+
+Método - Porção de código (Sub-rotina) que é disponibilizada pela classe, é executada quando 
+é feita uma requisição a ele.
+
+Objeto - representação de um conceito/entidade do mundo real que pode ser algo físico ou conceitual e possui
+um significado definido para um determinado software.
+
+
+Mensagem - ativação de um método de um objeto, isso ocorre quando uma requisição a esse método é realizada, etc.
+
+---------------------------------------------------------------------------------------------
+
+Herança - relacionamento entre classes em que uma classe chamada de subclasse é uma extensão, um subtipo, de outra 
+classe chamada de superclasse.
+
+Tipos de herança:
+
+Simples - Classe filha com um classe mãe
+
+Múltipla - Classe filha tem uma ou mais classes mães
+
+
+
+Polimorfismo - A mesma ação, se comportando diferente
+
+Sobrescrita - a mesma ação, podendo se compartar diferente
+
+
+---------------------------------------------------------------------------------------------
+
+Associação - relacionamento de classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar
+de forma completa o conceito ao qual se destinam.
+
+Tipos:
+
+Estrutural 
+* Composição - com parte todo - ex: pessoa e endereço
+* Agregação - sem parte todo - ex: disciplina e aluno
+
+Comportamental 
+* Dependência - depende de
+
+---------------------------------------------------------------------------------------------
+
+Interface - contrato que deve ser seguido pela classe que a implementa, quando uma classe implementa uma interface,
+ela se compromete a realizar todos os comportamentos que a interface disponibiliza.
+
+Tipos de classe - Abstrata e Concreta
+Métodos abstratos
+Características das associações
+Palavras coringas - super, base e super()
+Relações entre classes e interface: extends e implementes
+
+
+---------------------------------------------------------------------------------------------
+
+Pacotes - organização física ou lógica criada para separar classes com responsabilidades distintas. Com isso, 
+espera-se que a aplicação fique mais organizada e seja possível separar classes de finalidades e representatividades
+diferentes.
+
+Visibilidade - Um modificador de acesso tem como finalidade determinar até que ponto uma classe, atributo ou método 
+pode ser usado. A utilização de modificadores de acesso é fundamental para o uso efetivo da Orientação a Objetos.
+
+
+
+
+www.casadocodigo.com.br/products/livro-oo-conceitos
