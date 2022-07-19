@@ -1,0 +1,140 @@
+Protocolo HTTP
+
+
+HyperText Transfer Protocol (HTTP) 
+
+Protocolo de comunicação
+
+• Browser -> implementa o cliente HTTP
+• Servidor -> host objetos web
+
+-----------------------------------------------------------------------------------------------
+* Arquitetura Client-server 
+* Stateless
+
+
+• Cliente
+Mensagens - Request HTTP (Objetos Web)
+
+• Servidor
+Mensagens – Response HTTP (Protocolo TCP)
+
+-----------------------------------------------------------------------------------------------
+XML - Objetivo
+
+Serialization
+Comunicação
+Metadados
+
+-----------------------------------------------------------------------------------------------
+JSON - Outro formato 
+
+Características:
+
+• Lightweight
+• Independete de ling.
+• simples
+-----------------------------------------------------------------------------------------------
+
+XML e JSON
+
+Comum:
+
+• Auto-descritivos
+• Hierárquicos
+• Independentes de linguagem de prog.
+• Vasta utilização
+
+Diferenças:
+
+* Tags
+* Sucinto
+* Legibilidade
+* Utilização de arrays
+
+-----------------------------------------------------------------------------------------------
+
+" HTTP - HTTP é um protocolo (protocol) que permite a obtenção de recursos, como documentos 
+HTML. É a base de qualquer troca de dados na Web e um protocolo cliente-servidor, o que 
+significa que as requisições são iniciadas pelo destinatário, geralmente um navegador da Web. 
+Um documento completo é reconstruído a partir dos diferentes sub-documentos obtidos, como por 
+exemplo texto, descrição do layout, imagens, vídeos, scripts e muito mais. " 
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
+
+-----------------------------------------------------------------------------------------------
+
+Métodos mais utilizados - GET e POST
+
+GET - solicita um recurso do servidor -> (Método seguro)
+
+HEAD - GET sem corpo de resposta -> (Método seguro)
+
+POST - submete uma entidade a um recurso
+
+PUT - substituição de recursos pelos dados da requisição
+
+DELETE - remoção de um recurso
+
+TRACE - chamada de loop-back a um determinado recurso
+
+OPTION - opções de comunicação com recurso -> (Método seguro)
+
+CONNECT - tunelamento identificado pelo recurso
+
+PATCH - modificação parcial -> (RFC 5789)
+
+
+
+Metodos seguros - Operação de leitura (Read-only)
+* GET 
+* POST 
+* OPTION
+
+-----------------------------------------------------------------------------------------------
+
+HTTP Response 
+
+• Versão do protocolo
+• Status code
+• Status da mensagem
+
+
+200 OK: request bem sucedida e objeto enviado
+
+301 Moved Permanently: objeto realocado nova URL no campo Location
+
+400 Bad Request: resposta genérica - servidor não entendeu a mensagem
+
+404 Not Found: o documento solicitado é inexistente
+
+505 HTTP Version Not Supported: versão do protocolo não suportada pelo servidor
+
+
+
+Classificação dos Status Code:
+
+• Information response (100 – 199)
+• Successful response (200 – 299)
+• Redirection response (300 – 399)
+• Client error response (400 – 499)
+• Server error response (500 – 599
+-----------------------------------------------------------------------------------------------
+
+Cookies - Pequenos pedaços ou blocos de dados criados e utilizados pelo servidor para persistir
+dados no dispositivo do cliente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
