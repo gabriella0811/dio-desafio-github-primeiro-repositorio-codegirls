@@ -1,0 +1,20 @@
+Spring Core
+
+- Core e Beans
+* Estrutura
+* IoC
+* Injeção de dependências
+* BeanFactory
+
+- Context
+* Core e Beans
+* Internacionalização
+* ApplicationContext
+
+
+- Expression Language
+* Define através de XML ou anotações em tempo de execução, valores e comportamentos dos Beans.
+
+----------------------------------------------------------------------------------------------
+
+Inversão de controle - 
