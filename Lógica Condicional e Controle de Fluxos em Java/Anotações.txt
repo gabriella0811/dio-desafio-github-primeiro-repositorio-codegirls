@@ -1,0 +1,86 @@
+-- Operadores Relacionais --
+
+Simbolos especiais que são caoazes de realizar comparações entre 
+determinados operandos e se tornar um resultado. 
+
+" São utilizados na comparação do valor de uma variável com o valor constante
+ou com o valor de outra variável, o resultado da comparação pode ser V ou F." 
+- Livro "Programação orientada a objetos com Java 8 - William Pereira Alves"
+
+
+- Similaridade 
+Igualdade - determina se um operando é igual ao outro
+
+(==)
+
+Diferença - determina se um operando não é igual ao outro
+
+(!=)
+
+--------------------------------------------------------------------------
+
+-- Operadores Lógicos --
+
+Simbolos especiais que são capazes de realizar comparações lógicas entre
+operandos lógicos ou expressões e em seguida retornar um resultado.
+
+Tipos - conjunção, disjunção, disjunção exclusiva, negação.
+
+Conjunção - operação lógica que só é verdadeira quando ambos os operandos
+ou expressões envolvidas são verdade.
+
+Disjunção - só é falsa quando ambos os operandos ou expressões envolvidas
+são falsos
+
+Disjunção exclusiva - só é verdade quando ambos os operandos ou expressões
+são opostos
+
+Negação - inverte o valor lógico de um operando ou expressão
+
+" Usados em operações lógicas que envolvam a avaliação dos resultados de duas
+ou mais expressões relacionais " - Livro "Programação orientada a objetos
+com Java 8 - William Pereira Alves"
+
+Operadores
+ 
+&& - AND (e)
+|| - OR (ou)
+! - NOT (inversão)
+^ - XOR
+
+
+--------------------------------------------------------------------------
+
+-- Controle de Fluxo --
+
+Estruturas que tem a capacidade de direcionaar o fluxo de execução do código.
+
+Tipos 
+Decisão - if, if-else, if-else-if, switch e operador ternário
+Repetição - for, while, do while
+Interrupção - break, continue e return
+
+Decisão- avalia uma condição booleana ou variável para direcionar o fluxo de execução
+
+
+
+"Essas estruturas são, em grande parte, responsáveis pela sofisticação e 
+pelo poder de processamento dos programas. Elas podem ser agrupadas em dois
+tipos: 
+Estruturas condicionais (ou de decisões) e Estruturas de repetição." 
+- Livro "Programação orientada a objetos
+com Java 8 - William Pereira Alves"
+
+--------------------------------------------------------------------------
+
+-- Blocos --
+
+Grupo de 0 ou mais códigos quais trabalham em conjunto para executar uma operação
+
+Tipos 
+Locais - dentro de métodos
+Estáticos - dentro de classes
+Instância - dentro de classes
+
+
+
