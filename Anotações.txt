@@ -1,0 +1,15 @@
+-- Estrutuas de repetição --
+
+São as estruturas mais utilizadas em programação. Sem elas, não seria possível executar um gripo de instruções
+mais de uma vez, sem que fosse necessário repetir as linhas dentro do código. São conhecidas como laços de repetição 
+ou em Loop.
+
+Tipos de estruturas de repetições
+For 
+While
+Do/While
+
+Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas
+condições sejam satisfeitas.
+
+
