@@ -1,0 +1,59 @@
+- Exceções -
+
+Exceção - é um evento que interrompe o fluxo normal do processamento de uma classe.
+
+Com o tratamento de exceções, um programa pode continuar executando depois de lidar com um problema.
+------------------------------------------------------------------------------------------------------------------------
+
+Error - Usado pela JVM que serve para indicar se existe algum problema de recurso do programa, tornando a execução 
+impossível de continuar.
+
+
+Unchecked (Runtime) - Exceptions que PODEM ser evitados se forem tratados e analisados pelo desenvolvedor.
+
+
+Checked Exception - Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar.
+
+
+try, catch, finally - Cada uma dessas palavras, juntas, definem blocos para o tratamento de exceções.
+
+
+throws - Declara que um método pode lançar uma ou várias exceções.
+
+
+throw - Lança explicitamente uma exception.
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Bloco try - Região onde se encontra o código que queremos verificar se irá ou não lançar uma exceção.
+
+Bloco catch - Região onde se encontra o possível tratamento da exceção. Isso significa que só será executado caso o 
+bloco try apresentar alguma exceção.
+
+
+Bloco finally - Este bloco é opcional, mas caso seja construído, quase sempre será executado. (A menos que seja forçado,
+por exemplo, com um System.exit(0), no catch).
+
+------------------------------------------------------------------------------------------------------------------------
+
+Cláusula throw - Para lançar exceções explicitamente, use a cláusula throw. Usada principalmente para lançar exceções 
+personalizadas.
+
+Cláusula throws - O throws quando declarado no método, servirá apenas para informar ao compilador que estamos cientes da
+possibilidade de apresentar alguma Exception neste método. 
+
+------------------------------------------------------------------------------------------------------------------------
+
+Unchecked Exception - Herdam da classe RuntimeException ou da classe Error. O compilador não verifica o código para ver 
+se a exceção foi capturada ou declarada.
+
+Checked Exception - As exceções que são herdadas da classe Exception, mas não de RuntimeException. O compilador impõe um 
+requisito do tipo ‘capturar ou declarar’.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Exception Personalizada - Programadores podem achar útil declarar suas próprias classes de exceção. Essas Exceptions são
+específicas aos problemas que podem ocorrer quando outro programador empregar suas classes reutilizáveis.
+
+
