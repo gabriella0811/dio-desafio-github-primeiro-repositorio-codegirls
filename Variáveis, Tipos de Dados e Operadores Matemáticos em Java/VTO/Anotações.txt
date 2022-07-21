@@ -1,0 +1,53 @@
+-- Anotações -- 
+
+Em Java as variáveis não podem começar com números.
+
+* Boas práticas *
+
+Começar com letra minuscula, nomes expressivos.
+
+------------------------------------------------------------------------------------------
+
+- Tipos de dados - são os valores e opreções que as variáveis podem assumir e sofre,
+respectivamente.
+
+------------------------------------------------------------------------------------------
+
+- Operador aritimético, permite a execução de cálculos matemáticos.
+São classificados em unários (quando trabalham com apenas um operador)
+Binários (quando trabalham com dois operadores)
+
+Ex: Unário 
+
+-- (Decremento) - reduz em uma unidade o valor armazenado em uma variável
+++ (Incremento) - executa a operação parecida, porém aumenta o valor da variável.
+
+Pós-fixado - exp ++, exp--
+Prefixado - ++exp, --exp
+
+Atribuição - =, +=, -=, *=, /=, %=
+
+
+------------------------------------------------------------------------------------------
+
+- Conversões = Casting
+
+Transformação de uma determinada variável de tipo menos específico para um tipo mais 
+específico ou vice-versa.
+
+Upcast - implícito
+Downcast - explícito
+
+------------------------------------------------------------------------------------------
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/keywords.html
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variablesummary.html
+
+
