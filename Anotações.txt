@@ -1,0 +1,21 @@
+- Métodos
+Porção de código que é disponibilizada por uma classe, todo método deve ser criado dentro
+de uma classe.
+
+Pode ser contrato ou abstrato.
+
+- Assinatura  
+É a forma de identifica unicamente o método 
+
++parametros
+------------------------------------------------------------------------------------------
+- Sobrecarga 
+Tem a capacidade de definir métodos para diferentes contextos, mas preservando seu nome
+
+------------------------------------------------------------------------------------------
+
+- Retornos
+
+Return - instrução de interrupção, é atrelado a um método, completa instruções internas, 
+declaração explicita de retorno, lança exceção.
+
