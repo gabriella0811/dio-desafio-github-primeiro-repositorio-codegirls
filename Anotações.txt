@@ -1,0 +1,127 @@
+- Maven (Windows) 
+
+https://maven.apache.org/download.cgi
+
+-----------------------------------------------------------------------------------------------
+Maven 
+
+* Ferramenta para gerenciar build e dependências de um projeto.
+* Primeira versão em julho de 2004, mantido pela Apache Software Foundation
+* Endereça como o software foi construído e suas dependências através do POM (Project Object 
+Model)
+* Facilita a compreensão do desenvolvedor
+* Fornecer informações de qualidade
+
+
+
+-----------------------------------------------------------------------------------------------
+
+Comandos 
+
+* Compilar: compile
+* Testar: test
+* Empacotar: package
+* Limpar diretório de trabalho: clean
+
+-----------------------------------------------------------------------------------------------
+
+POM - Project Object Model
+
+* Unidade fundamental de trabalho
+* Formato XML
+* Detalha o projeto
+* Detalha como construir o projeto
+* Maven sempre procura pelo pom.xml para realizar sua execução
+
+-----------------------------------------------------------------------------------------------
+
+Repositórios
+
+* São locais onde podemos encontrar plugins e bibliotecas que o Maven provê
+* Dois tipos: Local e Remoto
+
+
+
+Repositório Remoto - É o local central utilizado pelo Maven para buscar os artefatos.
+Configurado automaticamente pelo Super POM para utilizar o Maven Central
+
+
+Repositório Local - É o repositório na máquina utilizado pelo Maven para buscar os artefatos.
+
+* Estratégia de caching
+* Localizações
+* Windows: %USERPROFILE%\.m2\repository
+* Linux: $HOME/.m2/repository
+
+-----------------------------------------------------------------------------------------------
+
+Propriedades
+
+* groupId: É como se fosse o id da organização. Segue as regras de nomes de pacote Java
+* artifactId: Nome do projeto em si
+* Version: Número da versão que será utilizada
+
+-----------------------------------------------------------------------------------------------
+
+Tipos de Dependências
+
+* Direta: dependências declaradas no pom.xml
+* Transitiva: dependências obrigatórias das dependências declaradas no pom.xml
+
+-----------------------------------------------------------------------------------------------
+
+Escopo
+
+* Classpath:
+ 
+• Runtime
+• Test
+• Compile
+
+
+
+* Escopo Compile:
+
+• Escopo default
+• Disponível em todos os classpaths
+• É transitivo
+
+
+* Escopo Provided:
+
+• Indica que a dependência será fornecida em tempo de execução por uma implementação na JDK ou 
+via container
+• Exemplos: Servlet API, Java EE APIs
+• A dependência com esse escopo é adicionado no classpath usado para compilação(compile) e 
+teste(test) mas não em runtime;
+• Não é transitiva
+
+
+* Escopo Runtime:
+
+• Indica que a dependência é necessária para execução e não para compilação
+• Maven inclui no classpath dos escopos de runtime e test
+
+
+* Escopo Test:
+
+• Disponível somente para compilação e execução de testes
+• Não é transitivo
+
+
+* Escopo System:
+
+• Similar ao escopo provided exceto por ser necessário prover o JAR explicitamente
+• A dependência com esse escopo é adicionado no classpath usado para compilação(compile) e test
+e(test) mas não em runtime;
+• Não é transitiva
+
+
+* Escopo Import:
+
+• Este escopo é disponível apenas com uma dependência do tipo pom e com tag 
+<dependencyManagement>
+• Indica um processo de reutilizar dependências de um projeto
+
+-----------------------------------------------------------------------------------------------
+
